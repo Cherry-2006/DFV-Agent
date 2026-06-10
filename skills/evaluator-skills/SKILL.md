@@ -1,5 +1,5 @@
 ---
-name: dfv-evaluation  
+name: evaluator-skills  
 description: Guidelines for evaluating Desirability, Feasibility, and Viability reports and producing a final project decision.
 metadata:
   author: DFV-Team

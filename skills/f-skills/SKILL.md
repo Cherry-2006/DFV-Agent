@@ -1,5 +1,5 @@
 ---
-name: feasible
+name: f-skills
 description:
   Guides the Feasibility Evaluation Agent in the DFV framework to produce a
   structured 5-section technical analysis of a student's hackathon or startup

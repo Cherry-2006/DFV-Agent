@@ -1,9 +1,9 @@
 ---
-name: market-research-analyst
+name: d-skills
 description: Research methodology and guidelines for conducting competitor analysis and validating market demand for startup ideas. Use for Desirability evaluation.
 metadata:
   author: DFA-Agent-System
-  version: "2.0"
+  version: "1.0"
 ---
 
 ## Your Identity and Purpose
