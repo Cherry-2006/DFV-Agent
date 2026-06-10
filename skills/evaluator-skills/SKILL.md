@@ -1,5 +1,5 @@
 ---
-name: dfv-evaluation
+name: dfv-evaluation  
 description: Guidelines for evaluating Desirability, Feasibility, and Viability reports and producing a final project decision.
 metadata:
   author: DFV-Team
@@ -68,12 +68,28 @@ Recommend NO-GO when:
 GO / NO-GO
 
 #### Executive Summary
+- Summarize overall project readiness.
+- Highlight major strengths.
+- Highlight major concerns.
+- Provide a concise final assessment.
 
 #### Key Strengths
+- Strong customer demand.
+- Clear value proposition.
+- Technical feasibility.
+- Sustainable business model.
 
 #### Key Weaknesses
+- Missing customer validation.
+- High implementation complexity.
+- Resource constraints.
+- Scalability concerns.
 
 #### Risk Assessment
+- Technical Risks: Technology limitations, integration issues.
+- Business Risks: Competition, adoption barriers.
+- Operational Risks: Resource and maintenance challenges.
+
 
 #### DFV Summary
 - Desirability
