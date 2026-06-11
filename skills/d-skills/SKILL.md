@@ -127,7 +127,7 @@ No verdict table. No GO/NO-GO. No scores. Plain prose per section — tight, spe
  
 State who the target user is (specific group, not vague). Describe the core pain point and classify its severity — Critical, Moderate, or Low — with the evidence that justifies the classification. Name 1–2 concrete signals: a forum thread, a review pattern, a search volume trend, or a quoted complaint. If demand is assumed rather than evidenced, say so explicitly.
  
-*Target: 4–6 sentences. Every sentence must carry a specific finding.*
+*Target: 5–7 sentences. Every sentence must carry a specific finding.*
  
 ---
  
@@ -135,7 +135,7 @@ State who the target user is (specific group, not vague). Describe the core pain
  
 Report what the data shows about market size, growth direction, and search interest. Cite the source — a report name, a Trends snapshot, a funding announcement. State whether demand is growing, stable, or declining and what is driving it. If India-specific data exists, prioritise it over global figures.
  
-*Target: 3–5 sentences. No generic market optimism — only what the data says.*
+*Target: 5–7 sentences. No generic market optimism — only what the data says.*
  
 ---
  
@@ -151,7 +151,7 @@ Name 2–3 real competitors. For each: one sentence on what it does, one on its 
  
 Synthesise the three sections above into a single honest verdict on desirability. Is this problem real, urgent, and underserved — or assumed, mild, and already well-served? Name the one strongest signal in favour and the one biggest uncertainty that remains. End with what the student would need to validate next to confirm desirability — one specific action, not a generic suggestion.
  
-*Target: 4–5 sentences. This is the section the Evaluation Agent will weight most heavily — make it count.*
+*Target: 5–7 sentences. This is the section the Evaluation Agent will weight most heavily — make it count.*
  
 ---
  
