@@ -1,0 +1,75 @@
+desirability_task:
+  description: >
+    {desirability}
+  expected_output: >
+    A formal text-formatted 'Desirability Analysis Report' containing:
+    1. User Demand Analysis (validating target user pain points and problem severity).
+    2. Market Demand Assessment (current industry search interest and growth indicators).
+    3. Competitor Analysis (gaps, weaknesses, or friction in existing products/alternatives).
+    4. Opportunity Identification (clear statement on why this solution is or is not desired by the market).
+    keep the output under 600 words
+  agent: desirability_agent
+  async_execution: true
+
+feasibility_task:
+  description: >
+    {feasibility}
+  expected_output: >
+    A plain-language Feasibility Evaluation containing:
+    1. A short feasibility opinion.
+    2. Main technical and operational challenges.
+    3. Required tools, stack, or infrastructure.
+    4. Suggestions to improve or simplify the idea if needed.
+    5. Practical next steps for implementation.
+    Do not include any score, rating, grade, or percentage. keep the output under 600 words
+  agent: feasibility_agent
+  async_execution: true
+
+viability_task:
+  description: >
+    {viability}
+  expected_output: >
+    A Viability Analysis Report containing:
+    1. Business Model Analysis
+    2. Revenue Opportunities
+    3. Customer Segment Analysis
+    4. Cost Considerations
+    5. Sustainability Assessment
+    6. Final Viability Conclusion
+    keep the output under 600 words
+  agent: viability_agent
+  async_execution: true
+
+
+dfv_decision_task:
+  description: >
+    Review the reports provided in your context thoroughly from the Desirability,
+    Feasibility, and Viability evaluation phases. Synthesize these findings to construct
+    a structured assessment of the project idea, filling in the required JSON fields.
+
+    Specifically:
+    1. refined_idea:
+        - customer_segment: The precise group of users experiencing the problem.
+        - qualified_problem: The specific pain point or problem being addressed.
+        - consequence: The direct negative consequence of the problem if left unsolved.
+        - proposed_solution: The proposed product/solution.
+
+    2. hypotheses:
+        - desirability_statement: A "We believe [target customer] will [action]..." hypothesis testing genuine demand for the solution.
+        - feasibility_statement: A "We believe [team] can [build action] within [timeframe] using [tools/APIs]..." hypothesis testing build feasibility.
+        - viability_statement: A "We believe we can sustain this via [revenue model]..." hypothesis testing the business model.
+            
+    3. tips_validated_metrics:
+        - timely_factor: Why this is a timely problem to solve now (e.g. changes in evaluation weightage or policies).
+        - importance_metric: Why this problem is highly important/consequential (e.g. impact on placements or graduation).
+        - profitability_pivot: The business/revenue model pivot or approach (e.g. B2B2C parent-pay model vs student-pay).
+        - solvability_constraint: The technical feasibility constraint showing it is solvable with simple tools.
+    4. final_decision:
+        - status: Critically weigh all three dimensions. If any phase reveals a fatal flaw, set this field to 'NO-GO'. If all three pillars balance sustainably, set this to 'GO'.
+        - justification: Provide a clear, data-backed analytical reason for why the project received a GO or a NO-GO status.
+  expected_output: >
+    A structured JSON object matching the DFAOutput schema including refined_idea, tips_validated_metrics, hypotheses, and final_decision properties.
+  agent: dfv_risk_decision_agent
+
+
+

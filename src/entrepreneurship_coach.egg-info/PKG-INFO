@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: entrepreneurship-coach
+Version: 0.1.0
+Summary: Coach for entrepreneurship ideas using DFV framework
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: crewai[tools]<2,>=1.14.6
+Requires-Dist: pydantic<2.13,>=2.11.9
