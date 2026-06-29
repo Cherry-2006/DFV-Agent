@@ -47,6 +47,7 @@ llm = LLM(
     temperature=0.1,
 )
 
+
 # Discover and activate local business framework guidelines from markdown packages
 skills = discover_skills(Path("./skills"))
 activated = [activate_skill(s) for s in skills]
